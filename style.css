@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Arsenal";
+    src: url("fonts/Arsenal-Regular.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: url("images/background_homepage.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    background-color: transparent;
+    transition: transform .5s, background-color .5s;
+}
+
+.logo{
+    top:1%;
+    padding-left: 20vw;
+}
+
+.logo_imagem{
+    width: 120%; 
+    height: 100%;
+}
+
+.menubar{
+    width: 50vw;
+    left: 0%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 8vw;
+    right: 8vw;
+    
+}
+
+.list-items a{
+    color: black;
+    font-family: "Arsenal", sans-serif;
+    font-size: 1.2vw;
+    transition: 0.4s;
+    font-weight: bold;
+
+}
+
+.list-items a:hover{
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: red;
+
+}
+
+.burguer{
+    height: 28px;
+    width: 32px;
+    display: none;
+}
+
+.layer1, .layer2, .layer3{
+    color:  rgb(127, 32, 32);
+    background-color: rgb(127, 32, 32);
+    height: 4px;
+    margin-top: 4px;
+    width:100%;
+    border-radius: 10px;
+}
+
+.section1{
+    height: 30vh;
+    width: 100vh;
+    top:20vh;
+    left:0;
+}
+
+
+.section1 .banner{
+    height: 50%;
+    width: 65%;
+    position: relative;
+    top:4vh;
+    left:70%;
+    padding: 2px;
+    text-align:justify;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner h1{
+    color:black;
+    font-size: 3vw;
+    font-family: "Arsenal";
+    padding-bottom: 20px;
+}
+
+.banner h2{
+    color:black;
+    font-size: 2.5vw;
+    font-family: "Arsenal";
+    padding-bottom: 2px;
+}
+
+.banner .first_letter, .second_letter{
+    color:black;
+    font-size: 3vw;
+    font-family: "Arsenal";
+    background-color: orange;
+}
+
+.banner .button1{
+    color:white;
+    font-size: 1vw;
+    font-family: "Arsenal";
+    font-weight: bold;
+    background-color: rgb(14, 237, 14);
+    position: relative;
+    left: 0%;
+    width:30vh;
+    padding: 5px;
+    border-radius: 8px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+
+
+
+
